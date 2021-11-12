@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="EJERCICIO 1">
+      <UniqueIdentifier>{1e7f45c1-b60c-44fa-98ec-e3a215df74c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EJERCICIO 2">
+      <UniqueIdentifier>{b17a56ed-9e43-46f0-a629-0c206a9e866d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESTRUCTURAS">
+      <UniqueIdentifier>{f1ccf974-bffb-4d46-8cf6-3a938114885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="POLIGONOS">
+      <UniqueIdentifier>{657d8c9a-45d6-4425-bad7-a8f4457d377c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="EJERCICIO1.cpp">
+      <Filter>EJERCICIO 1</Filter>
+    </ClCompile>
+    <ClCompile Include="EJERCICIO2.cpp">
+      <Filter>EJERCICIO 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>ESTRUCTURAS</Filter>
+    </ClCompile>
+    <ClCompile Include="Poligonos.cpp">
+      <Filter>POLIGONOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulo.cpp">
+      <Filter>POLIGONOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangulo.cpp">
+      <Filter>POLIGONOS</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuadrado.cpp">
+      <Filter>POLIGONOS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EJERCICIO1.h">
+      <Filter>EJERCICIO 1</Filter>
+    </ClInclude>
+    <ClInclude Include="EJERCICIO2.h">
+      <Filter>EJERCICIO 2</Filter>
+    </ClInclude>
+    <ClInclude Include="DobleList.h">
+      <Filter>ESTRUCTURAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>ESTRUCTURAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Poligonos.h">
+      <Filter>POLIGONOS</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulo.h">
+      <Filter>POLIGONOS</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangulo.h">
+      <Filter>POLIGONOS</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuadrado.h">
+      <Filter>POLIGONOS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LAB07.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
