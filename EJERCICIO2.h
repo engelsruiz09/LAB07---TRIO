@@ -82,6 +82,7 @@ namespace LAB07 {
 	private: System::Windows::Forms::ListBox^ Idlist;
 	private: System::Windows::Forms::ListBox^ colorlist;
 	private: System::Windows::Forms::Label^ label11;
+	private: System::Windows::Forms::Label^ label12;
 
 	private: System::ComponentModel::Container ^components;
 
@@ -107,6 +108,7 @@ namespace LAB07 {
 			this->label8 = (gcnew System::Windows::Forms::Label());
 			this->pnlList = (gcnew System::Windows::Forms::Panel());
 			this->groupBox2 = (gcnew System::Windows::Forms::GroupBox());
+			this->label12 = (gcnew System::Windows::Forms::Label());
 			this->btnCuadrado = (gcnew System::Windows::Forms::Button());
 			this->txtanchocuadrado = (gcnew System::Windows::Forms::TextBox());
 			this->txtboxcuadradoalto = (gcnew System::Windows::Forms::TextBox());
@@ -263,6 +265,7 @@ namespace LAB07 {
 			// groupBox2
 			// 
 			this->groupBox2->BackColor = System::Drawing::Color::CadetBlue;
+			this->groupBox2->Controls->Add(this->label12);
 			this->groupBox2->Controls->Add(this->btnCuadrado);
 			this->groupBox2->Controls->Add(this->txtanchocuadrado);
 			this->groupBox2->Controls->Add(this->txtboxcuadradoalto);
@@ -274,6 +277,15 @@ namespace LAB07 {
 			this->groupBox2->TabIndex = 18;
 			this->groupBox2->TabStop = false;
 			this->groupBox2->Text = L"Cuadrado";
+			// 
+			// label12
+			// 
+			this->label12->AutoSize = true;
+			this->label12->Location = System::Drawing::Point(36, 18);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(121, 13);
+			this->label12->TabIndex = 33;
+			this->label12->Text = L"ingresar el mismo lado ;s";
 			// 
 			// btnCuadrado
 			// 
