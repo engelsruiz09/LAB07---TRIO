@@ -183,8 +183,8 @@ namespace LAB07 {
 			this->PerformLayout();
 
 		}
-		//inge no se por que no cuenta bien la posicion xd pero para el primero que es el secuencial si cuenta y para el hash tambien pero cuando le da al binario tiene que dar en los demas para poder encontrar la posicion no se por que nos paso eso ;/// (piedad ;( )
-#pragma endregion
+		//inge no se por que no cuenta bien la posicion xd pero para el primero que es el secuencial si cuenta y para el hash tambien pero cuando le da al binario tiene que dar en los demas para poder encontrar la posicion no se por que nos paso eso ;/// (piedad ;( ) 
+		//con arreglos pequeños cuentan bien 
 		private:
 			ArrayList^ arreglodenumeros;//el arreglo en si
 			Hashtable^ mitablahash;//tuvimos que crear la tabla ya que no sabia como usar esa clase que pedia el laboratorio XD
