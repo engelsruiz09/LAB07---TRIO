@@ -280,21 +280,6 @@ namespace LAB07 {
 				return -1;// es que no encontro nada
 			}
 
-			/*void bubble(int count) {
-				for (int i = 0; i < count - 1; i++)
-				{
-					for (int j = i+1; j < count; j++)
-					{
-						if (System::Convert::ToInt16(arreglodenumeros[j]) < System::Convert::ToInt16(arreglodenumeros[i]))
-						{
-							int temp;
-							temp = Convert::ToInt16(arreglodenumeros[j]);
-							arreglodenumeros[j] = arreglodenumeros[i];
-							arreglodenumeros[i] = temp;
-						}
-					}
-				}
-			}*/
 private: System::Void btnarreglo_Click_1(System::Object^ sender, System::EventArgs^ e) {
 	try
 	{
@@ -327,7 +312,7 @@ private: System::Void btnsearchnum_Click_1(System::Object^ sender, System::Event
 			n = lineal_search(value);
 			break;
 		case 1:
-			//bubble(value);
+			
 			n = binary_search(value);
 			break;
 		case 2:
